@@ -1,0 +1,23 @@
+@model Jogador
+
+@{
+    ViewData["Title"] = "login";
+}
+
+<h1 class="container text-center">Tela de Login</h1>
+
+
+<form class="container text-center" method="post" action="@Url.Action("Logar")">
+   
+    <label for="">Email</label>
+    <input type="email" name="Email" required>
+   
+    <label for="">Senha</label>
+    <input type="password" name="Senha" required>
+    
+    <button class="btn btn-outline-success" type="submit">Logar</button>
+   
+<h2 class="container text-center text-lowercase fs-6 fst-italic text-primary-emphasis text-danger">
+    @TempData.Peek("Message")
+</h2>
+</form>

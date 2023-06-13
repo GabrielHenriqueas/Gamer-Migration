@@ -1,0 +1,46 @@
+@model Jogador
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edição de Jogadores</h1>
+
+@if (ViewBag.UserName == null)
+{
+    <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
+}
+else
+{
+<form method="post" action='@Url.Action("Atualizar")'>
+    <input type="hidden" name="IdJogador" value="@ViewBag.Jogador.IdJogador">
+
+    <label for="">Nome</label>
+    <input type="text" name="Nome" id="@ViewBag.Jogador.Nome">
+
+    <label for="">Email</label>
+    <input type="email" name="email" id="@ViewBag.Jogador.Email">
+
+    <label for="">Senha</label>
+    <input type="password" name="Senha" id="@ViewBag.Jogador.Senha">
+
+    <label for="">Equipe</label>
+    <select name="IdEquipe" id="IdEquipe">
+
+        @foreach (Equipe equipe in ViewBag.Equipe)
+        {
+            @if(equipe.IdEquipe == @ViewBag.Jogador.IdEquipe)
+            {
+                <option value="@equipe.IdEquipe" selected>@equipe.Nome</option>
+            }
+            else
+            {
+                <option value="@equipe.IdEquipe">@equipe.Nome</option>
+            }
+        }
+    </select>
+
+    <button type="submit">Atualizar</button>
+
+</form>
+}
