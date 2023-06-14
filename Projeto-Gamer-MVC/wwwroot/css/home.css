@@ -1,0 +1,119 @@
+
+/********************* MEDIAS *********************/
+/* Desktop */
+
+@media screen and (min-width: 992px) {
+    .container-grid {
+        max-width: 992px;
+        margin: 0 auto;
+        /* border: 1px solid #EC4358; */
+    }
+
+ 
+    /* Banner */
+    .banner {
+        margin-top: 0;
+        background-image: url(../images/Banner_Liga-Game.png);
+        
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: transparent;
+    }
+
+    .banner h2 {
+        font-size: 3.5rem;
+    }
+
+    .card-jogos {
+        flex-direction: row;
+        align-items: center;
+        padding: 80px 0px;
+    }
+
+ 
+     .card-jogos  img {
+        width: 450px;
+    }
+    .card-jogos>img:first-of-type {
+        margin-bottom: 0;
+    }
+
+    /* Progamer */
+
+    section.progamer .progamer-flex {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-between;
+    }
+    section.progamer .progamer-title {
+        width: 100%;
+    }
+    section.progamer h2 {
+        font-size: 2rem;
+        letter-spacing: 5px;
+    }
+
+    section.progamer hr {
+        width: 35%;
+    }
+
+    section.progamer .gamers {
+        height: 520px;
+        margin-right: 20px;
+        /* background: #EC4358; */
+    }
+
+    
+    section.progamer .progamer-flex .gamers>img {
+        height: 100%;
+        width: auto;
+    }
+
+    section.progamer .progamer-flex .gamers #professores {
+        top: auto;
+        bottom: 90px;
+    }
+
+    /* Notícias */
+
+    section.noticias {
+        position: relative;
+        z-index: 40;
+        background-image: url(../images/backgrund_notícias.png);
+    }
+
+    section.noticias:after  {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 41;
+        width: 100%;
+        height: 100%;
+        /* Verificar a quantidade de cores */
+        background-image: linear-gradient(to right bottom, rgba(45, 24, 77, 0), rgba(45, 24, 77, .4), rgba(27, 20, 38, 1));
+        backdrop-filter: blur(10px);
+
+    }
+    
+    section.noticias .noticias-flex {
+        position:relative;
+        z-index: 42;
+        justify-content: space-between;
+    }
+
+    
+    section.noticias .card-noticia {
+        max-width: 220px;
+        /* margin: 0; */
+    }
+
+    section.noticias div h2 {
+        font-size: 2.5rem;
+    }
+    section.noticias div hr {
+        width: 25%;
+    }
+}

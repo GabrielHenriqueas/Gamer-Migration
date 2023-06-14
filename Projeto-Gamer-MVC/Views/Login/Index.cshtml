@@ -6,18 +6,35 @@
 
 <h1 class="container text-center">Tela de Login</h1>
 
+<link rel="stylesheet" href="~/css/login.css">
 
-<form class="container text-center" method="post" action="@Url.Action("Logar")">
-   
-    <label for="">Email</label>
-    <input type="email" name="Email" required>
-   
-    <label for="">Senha</label>
-    <input type="password" name="Senha" required>
-    
-    <button class="btn btn-outline-success" type="submit">Logar</button>
-   
-<h2 class="container text-center text-lowercase fs-6 fst-italic text-primary-emphasis text-danger">
-    @TempData.Peek("Message")
-</h2>
-</form>
+<!-- FORMULÁRIO DE LOGIN -->
+<main class="fundo-login">
+    <div class="bkg-login">
+        <form class="frm-login" method="post" action="@Url.Action("Logar")">
+            <div class="login-title">
+                <hr class="login-line">
+                <h1>Login</h1>
+            </div>
+            <div class="frm-linha">
+                <div class="bkg-input">
+                    <img src="~/assets/vector-user.svg" alt="ícone de usuário">
+                    <input type="email" id="email" name="Email" required placeholder="Digite seu e-mail:">
+                </div>
+            </div>
+            <div class="frm-linha">
+                <div class="bkg-input">
+                    <img src="~/assets/vector-key.svg" alt="ícone de chave">
+                    <input type="password" id="password" name="Senha" required placeholder="Digite sua senha:">
+                </div>
+            </div>
+
+            <button class="btn-logar" type="submit">Logar</button>
+
+            <h2 class="container text-center text-lowercase fs-6 fst-italic text-primary-emphasis text-danger">
+                <br>@TempData.Peek("Message")
+            </h2>
+        </form>
+    </div>
+
+</main>
