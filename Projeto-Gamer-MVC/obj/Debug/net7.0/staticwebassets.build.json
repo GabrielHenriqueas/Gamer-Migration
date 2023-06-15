@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LBvYnr/3QZuenofrOfRloshhUEg7SZBLK+eW1T6OZCM=",
+  "Hash": "1a7vKjoWF8QAloq2NFv8FfyVXPXowT6ackQGL5clZzI=",
   "Source": "Projeto-Gamer-MVC",
   "BasePath": "_content/Projeto-Gamer-MVC",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\Botao_voltar_ao_topo.svg"
+    },
+    {
+      "Identity": "C:\\Users\\42351028856\\Desktop\\Gamer-Migration\\Projeto-Gamer-MVC\\wwwroot\\assets\\editar.png",
+      "SourceId": "Projeto-Gamer-MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\42351028856\\Desktop\\Gamer-Migration\\Projeto-Gamer-MVC\\wwwroot\\",
+      "BasePath": "_content/Projeto-Gamer-MVC",
+      "RelativePath": "assets/editar.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\editar.png"
     },
     {
       "Identity": "C:\\Users\\42351028856\\Desktop\\Gamer-Migration\\Projeto-Gamer-MVC\\wwwroot\\assets\\envelope-icon.png",
