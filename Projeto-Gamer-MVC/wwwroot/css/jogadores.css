@@ -3,7 +3,6 @@
 /* Main */
 
 main {
-    margin-top: 60px;
     height: 1403px;
     background-image: url(../assets/fundo-jogadores-mobile.png);
     background-size: contain;
@@ -34,8 +33,8 @@ main .cadastro-equipes::before {
     content: "";
     position: absolute;
     z-index: 0;
-    width: 100%;
-    height: 100%;
+    width: 82%;
+    height: 85%;
     background-color: rgba(217, 217, 217, .01);
     backdrop-filter: blur(1px);
 }
@@ -108,6 +107,9 @@ main .cadastro-equipes .frm-cad-equipe .campo-entrada {
     color: white;
 }
 
+main .frm-cad-equipe select option {
+    color: black;
+}
 
 /* File Field */
 

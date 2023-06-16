@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1a7vKjoWF8QAloq2NFv8FfyVXPXowT6ackQGL5clZzI=",
+  "Hash": "s0e/+4SS0w1dERVBET3s9U3SrTtTjMp+6f9VCceBGZ8=",
   "Source": "Projeto-Gamer-MVC",
   "BasePath": "_content/Projeto-Gamer-MVC",
   "Mode": "Default",
@@ -1681,6 +1681,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Equipes\\padrao.png"
+    },
+    {
+      "Identity": "C:\\Users\\42351028856\\Desktop\\Gamer-Migration\\Projeto-Gamer-MVC\\wwwroot\\img\\Equipes\\SoNoPeloFC.jpg",
+      "SourceId": "Projeto-Gamer-MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\42351028856\\Desktop\\Gamer-Migration\\Projeto-Gamer-MVC\\wwwroot\\",
+      "BasePath": "_content/Projeto-Gamer-MVC",
+      "RelativePath": "img/Equipes/SoNoPeloFC.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipes\\SoNoPeloFC.jpg"
     },
     {
       "Identity": "C:\\Users\\42351028856\\Desktop\\Gamer-Migration\\Projeto-Gamer-MVC\\wwwroot\\js\\site.js",

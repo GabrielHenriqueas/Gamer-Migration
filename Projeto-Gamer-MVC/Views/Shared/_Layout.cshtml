@@ -53,11 +53,17 @@
                         <a asp-controller="Home" asp-action="Index">Início</a>
                         @if (ViewBag.UserName != null)
                         {
+                            <a href="~/#noticias">Notícias</a>
                             <a asp-controller="Equipe" asp-action="Index">Equipes</a>
                             <a asp-controller="Jogador" asp-action="Index">Jogadores</a>
                             <a asp-controller="Login" asp-action="Logout">Logout</a>
                         }
+                        else
+                        {
+                        <a asp-controller="Login">Login</a>
+                        <a asp-controller="Cadastrar">Cadastrar</a>
                         <a href="~/#noticias">Notícias</a>
+                        }
 
                         <a class="phone-box">
                             <img src="~/assets/phone-icon.png" alt="phone icon" title="Ícone Telefone">

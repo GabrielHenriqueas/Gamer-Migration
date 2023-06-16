@@ -27,7 +27,7 @@
                 
                 <label class="foto" for="foto-file">
                     Nenuma imagem selecionada...
-                    <input type="file" id="foto-file" >
+                    <input type="file" name="Imagem" id="foto-file" >
                 </label>
 
                 <button>Cadastro</button>
@@ -53,11 +53,10 @@
                             <td>@equipe.IdEquipe</td>
                             <td>@equipe.Nome</td>
                             <td><img src="/img/equipes/@equipe.Imagem" alt="Imagem da Equipe @equipe.Nome" width="50px"></td>
-                            <td>
+                            <td style="gap: 10px;">
                                 <a asp-area="" asp-controller="Equipe" asp-action="Excluir"
                                     asp-route-id="@equipe.IdEquipe"><img src="~/assets/trash.png" alt="Excluir"></a>
-                            </td>
-                            <td>
+
                                 <a asp-area="" asp-controller="Equipe" asp-action="Editar"
                                     asp-route-id="@equipe.IdEquipe"><img src="~/assets/editar.png" alt="Editar" width="30px"></a>
                             </td>
